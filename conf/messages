@@ -1,0 +1,5 @@
+# Default videojs-play-module messages
+# You can specialize this file for each language.
+# For exemple, for french create a messages.fr file
+
+#videojs-play-module.name=videojs-play-module
