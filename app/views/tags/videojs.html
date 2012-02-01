@@ -1,12 +1,12 @@
 #{set 'moreStyles'}
     #{get 'moreStyles' /}
-    #{stylesheet 'videojs/video-js.css' /}
+    <link href="@{'/public/videojs/video-js.css'}" rel="stylesheet" type="text/css">
 #{/set}
 #{set 'moreScripts'}
     #{get 'moreScripts' /}
-    #{script 'videojs/video.js' /}
+    <script src="@{'/public/videojs/video.js'}"></script>
 #{/set}
-<video id="${_id}" class="video-js vjs-default-skin" controls preload="none" width="${_width}" height="${_height}"
+<video id="${_id}" class="video-js vjs-default-skin" controls preload="none"
        poster="${_poster}"
        data-setup="{}">
     <source src="${_src}" type='${_type}' />
